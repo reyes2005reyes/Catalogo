@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo | Vitrina de Productos</title>
+  <meta name="description" content="Catálogo digital de productos: explora, descubre y consulta disponibilidad directamente por WhatsApp.">
+
+  <!-- Tipografías (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (solo para íconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">C</span>
+        <span class="brand-name">Catálogo<em>.</em></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#coleccion">Colección</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="#coleccion" class="btn btn-ghost header-cta">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Buscar</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" data-animate>
+    <div class="hero-content">
+      <p class="eyebrow">Vitrina digital &mdash; sin inventario, sin cuentas, sin fricción</p>
+      <h1 class="hero-title">
+        Cada pieza,<br>
+        contada como <em>corresponde</em>.
+      </h1>
+      <p class="hero-sub">
+        Explora la colección completa, revisa el detalle de cada producto y escribe directamente
+        por WhatsApp para consultar disponibilidad. Sin registros. Sin esperas.
+      </p>
+
+      <form class="search-bar" role="search" onsubmit="return false;">
+        <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+        <input
+          type="search"
+          id="buscador"
+          placeholder="Busca un producto por nombre…"
+          aria-label="Buscar producto por nombre"
+          autocomplete="off"
+        >
+        <span class="search-count" id="contadorResultados"></span>
+      </form>
+    </div>
+
+    <div class="hero-figure" aria-hidden="true">
+      <div class="hero-badge">
+        <span class="hero-badge-number" id="totalProductos">00</span>
+        <span class="hero-badge-label">productos<br>disponibles</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COLECCIÓN / GRID ===================== -->
+  <main>
+    <section class="coleccion" id="coleccion">
+      <div class="section-heading">
+        <h2>La colección</h2>
+        <p>Cada tarjeta resume lo esencial. Toca una imagen para ver el detalle completo.</p>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Las tarjetas de producto se generan dinámicamente con JavaScript -->
+      </div>
+
+      <p class="empty-state" id="estadoVacio" hidden>
+        <i class="fa-regular fa-face-frown"></i>
+        No encontramos productos que coincidan con tu búsqueda.
+      </p>
+      <nav class="pagination" id="paginacion" aria-label="Paginación de productos"></nav>
+    </section>
+  </main>
+
+  <!-- ===================== MODAL DE PRODUCTO ===================== -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar detalle del producto">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-media">
+        <img id="modalImagen" src="" alt="">
+      </div>
+      <div class="modal-info">
+        <span class="modal-tag" id="modalCategoria"></span>
+        <h3 id="modalTitulo"></h3>
+        <p id="modalDescripcion"></p>
+        <div class="modal-footer">
+          <span class="modal-precio" id="modalPrecio"></span>
+          <a class="btn btn-primary" id="modalWhatsapp" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i>
+            Consultar disponibilidad
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== FOOTER / CONTACTO ===================== -->
+  <footer class="site-footer" id="contacto">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">C</span>
+        <span class="brand-name">Catálogo<em>.</em></span>
+        <p>Un espacio simple para mostrar productos con claridad y buen gusto.</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>¿Te interesa algo de la colección?</h4>
+        <p>Escríbenos directamente y con gusto te atendemos.</p>
+        <a href="https://wa.me/573001234567" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i>
+          Escribir por WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="anioActual"></span> Catálogo. Hecho con HTML, CSS y JavaScript puro.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
