@@ -396,7 +396,7 @@ const CONFIG = {
   // Esto permite que el mensaje de WhatsApp incluya el enlace de la imagen del
   // producto, y WhatsApp mostrará automáticamente una vista previa de la foto
   // dentro del chat. Si lo dejas vacío (""), el mensaje se envía solo con texto.
-  urlBase: "https://github.com/reyes2005reyes/Catalogo/"
+  urlBase: "https://reyes2005reyes.github.io/Catalogo/"
 };
 
 /* ---------- 3. RENDER DEL GRID DE PRODUCTOS ---------- */
