@@ -422,6 +422,158 @@ const productos = [
     descripcion: "Puntera deportiva de doble salida con acabado tornasol que cambia de color según la luz, ideal para un look llamativo y moderno. 🌈\n✅ Diseño: Doble salida tipo cola de pato 🦆\n✅ Acabado: Tornasol (efecto azul, dorado y púrpura)\n✅ Material: Acero inoxidable\n✅ Resistente al calor y corrosión 🔥\n✅ Tipo: Decorativa (no modifica sonido)\n✅ Instalación sencilla\n💥 Perfecta para destacar y darle un toque único a tu vehículo\n📲 Contáctanos para precio, disponibilidad e instalación",
     precio: 15000,
     imagen: "img/51.png"
+  },
+  {
+    id: 52,
+    nombre: "Cola de Pato Grande Tornasol",
+    categoria: "Punteras",
+    descripcion: "Diseño ancho con acabado tornasol que cambia de color según la luz. Perfecta para quienes buscan destacar con un estilo racing moderno. 🚗🌈\n✅ Diseño: Cola de pato grande 🦆\n✅ Tamaño: Amplio\n✅ Acabado: Tornasol multicolor 🌈\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo racing con efecto multicolor impactante\n📲 Escríbenos para más info o instalación",
+    precio: 15000,
+    imagen: "img/52.png"
+  },
+  {
+    id: 53,
+    nombre: "Puntera Ovalada Pequeña Morado",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo único con esta puntera ovalada pequeña en acabado tornasol morado. Su tonalidad intensa aporta personalidad y un look deportivo exclusivo. 🚗✨\n✅ Forma: Ovalada pequeña 🟣\n✅ Acabado: morado 💜\n✅ Diseño: Compacto y llamativo\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo deportivo con personalidad única\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/53.png"
+  },
+  {
+    id: 54,
+    nombre: "Doble salida sesgo – Púrpura",
+    categoria: "Punteras",
+    descripcion: "Puntera deportiva con acabado púrpura metálico, perfecta para un estilo exclusivo.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Púrpura brillante 🔮\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor\n✅ Tipo: Decorativa\n✅ Instalación rápida\n💥 Ideal para quienes buscan algo diferente\n📲 Contáctanos para más información",
+    precio: 15000,
+    imagen: "img/54.png"
+  },
+  {
+    id: 55,
+    nombre: "Puntera Redonda 3.5\" Acero Inoxidable Cromado",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo elegante y robusto con esta puntera redonda de 3.5\" en acabado cromado. Su diseño clásico y brillante resalta la apariencia del escape sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un look más grande, elegante y llamativo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/55.png"
+  },
+  {
+    id: 56,
+    nombre: "Puntera 2.0\" Acero Inoxidable Cromado",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un look limpio y elegante con esta puntera en acero inoxidable cromado. Su acabado brillante tipo espejo resalta al instante sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo clásico, elegante y atemporal.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/56.png"
+  },
+  {
+    id: 57,
+    nombre: "Puntera 2.75\" Sesgo Acero Pulido",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un look limpio y elegante con esta puntera en acero pulido. Su acabado clásico resalta sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.75\"\n✅ Acabado: Acero Pulido ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo discreto pero elegante.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/57.png"
+  },
+  {
+    id: 58,
+    nombre: "Puntera 4.0\" Negra Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un look agresivo y sofisticado con esta puntera en acabado negro. Su diseño discreto y deportivo resalta sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Negro ⚫\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, elegante y deportivo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/58.png"
+  },
+  {
+    id: 59,
+    nombre: "Puntera 3.5\" Sesgo Morada",
+    categoria: "Punteras",
+    descripcion: "Acabado vibrante en tono morado que le da un toque diferente y personalizado a tu vehículo. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Acabado: Morado 🟣\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para un estilo único y atrevido\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/59.png"
+  },
+  {
+    id: 60,
+    nombre: "Puntera 2.0\" Tornasol Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un toque deportivo y llamativo con esta puntera en acabado tornasol. Su efecto multicolor resalta con la luz, logrando un look moderno sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo compacto, moderno y diferente.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/60.png"
+  },
+  {
+    id: 61,
+    nombre: "Puntera Redonda 3.0\" Acero Inoxidable Cromado",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo elegante y limpio con esta puntera redonda de 3.0\" en acabado cromado. Su diseño clásico y brillante mejora la apariencia del escape sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para un look elegante, moderno y atemporal.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/61.png"
+  },
+  {
+    id: 62,
+    nombre: "Puntera 3.0\" Sesgo Tornasol Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo deportivo y moderno con esta puntera en acabado tornasol. Su efecto multicolor resalta con la luz, logrando un look llamativo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo deportivo más robusto y llamativo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/62.png"
+  },
+  {
+    id: 63,
+    nombre: "Puntera Redonda 3.5\" Tornasol Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo deportivo y llamativo con esta puntera redonda de 3.5\" en acabado tornasol. Su efecto multicolor cambia con la luz, logrando un look moderno sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo más grande, agresivo y llamativo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/63.png"
+  },
+  {
+    id: 64,
+    nombre: "Puntera 4.0\" Tornasol Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo deportivo y moderno con esta puntera en acabado tornasol multicolor. Su efecto cambia con la luz, logrando un look único sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, moderno y llamativo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/64.png"
+  },
+  {
+    id: 65,
+    nombre: "Puntera Redonda 3.0\" Tornasol Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo moderno y llamativo con esta puntera redonda de 3.0\" en acabado tornasol. Su efecto multicolor cambia con la luz, logrando un look deportivo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan destacar con un estilo diferente y deportivo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/65.png"
+  },
+  {
+    id: 66,
+    nombre: "Puntera 2.75\" Sesgo Negra Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo agresivo y sofisticado con esta puntera en acabado negro. Su diseño moderno destaca sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.75\"\n✅ Acabado: Negro ⚫\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un look deportivo y elegante.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/66.png"
+  },
+  {
+    id: 67,
+    nombre: "Puntera 4.0\" Tornasol Morado Acero Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un look agresivo y llamativo con esta puntera en acabado tornasol morado. Su color vibrante resalta con la luz, logrando un estilo deportivo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Tornasol Morado 🟣\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, deportivo y llamativo.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/67.png"
+  },
+  {
+    id: 68,
+    nombre: "Puntera Redonda 2.0\" Morada",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo único y elegante con esta puntera en acabado morado. Su diseño moderno resalta al instante sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Morado 💜\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo compacto, elegante y diferente.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/68.png"
+  },
+  {
+    id: 69,
+    nombre: "Puntera 3.5\" Sesgo Dorada",
+    categoria: "Punteras",
+    descripcion: "Un acabado dorado elegante que aporta un estilo exclusivo y refinado a tu vehículo, ideal para destacar con clase. 🚗🔥\n✅ Diámetro: 3.5\"\n✅ Acabado: Dorado 🟡\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo premium con acabado brillante\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/69.png"
+  },
+  {
+    id: 70,
+    nombre: "Puntera 4.0\" Acero Pulido Inoxidable",
+    categoria: "Punteras",
+    descripcion: "Dale a tu vehículo un estilo elegante y limpio con esta puntera en acero pulido. Su acabado clásico brinda presencia sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Acero Pulido ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un look grande, elegante y atemporal.\n📲 Escríbenos para más información o instalación",
+    precio: 15000,
+    imagen: "img/70.png"
   }
 ];
 
@@ -553,6 +705,12 @@ function renderizarProductos(lista) {
  * Dibuja los botones de "Anterior", números de página y "Siguiente".
  * @param {number} totalPaginas
  */
+/**
+ * Dibuja los botones de "Anterior", números de página y "Siguiente".
+ * Si hay muchas páginas, las comprime con puntos suspensivos
+ * (ej: « 1 2 3 … 9 »), para que no se vea saturado.
+ * @param {number} totalPaginas
+ */
 function renderizarPaginacion(totalPaginas) {
   paginacionEl.innerHTML = "";
 
@@ -572,14 +730,29 @@ function renderizarPaginacion(totalPaginas) {
   btnAnterior.addEventListener("click", () => irAPagina(paginaActual - 1));
   paginacionEl.appendChild(btnAnterior);
 
-  // Botones numerados
-  for (let numero = 1; numero <= totalPaginas; numero++) {
+  const agregarBotonNumero = (numero) => {
     const btn = document.createElement("button");
     btn.textContent = numero;
     if (numero === paginaActual) btn.classList.add("is-active");
     btn.addEventListener("click", () => irAPagina(numero));
     paginacionEl.appendChild(btn);
-  }
+  };
+
+  const agregarPuntos = () => {
+    const span = document.createElement("span");
+    span.className = "pagination-dots";
+    span.textContent = "…";
+    paginacionEl.appendChild(span);
+  };
+
+  const rango = calcularRangoPaginas(paginaActual, totalPaginas);
+  rango.forEach((item) => {
+    if (item === "...") {
+      agregarPuntos();
+    } else {
+      agregarBotonNumero(item);
+    }
+  });
 
   // Botón "Siguiente"
   const btnSiguiente = document.createElement("button");
@@ -589,6 +762,40 @@ function renderizarPaginacion(totalPaginas) {
   btnSiguiente.addEventListener("click", () => irAPagina(paginaActual + 1));
   paginacionEl.appendChild(btnSiguiente);
 }
+
+/**
+ * Calcula qué números de página mostrar, comprimiendo con "..." cuando
+ * hay muchas páginas. Ejemplo con 9 páginas y estando en la página 5:
+ * [1, "...", 4, 5, 6, "...", 9]
+ * @param {number} actual
+ * @param {number} total
+ * @returns {(number|string)[]}
+ */
+function calcularRangoPaginas(actual, total) {
+  const VENTANA = 1; // cuántas páginas mostrar a cada lado de la actual
+
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+
+  const paginas = new Set([1, total, actual]);
+  for (let i = actual - VENTANA; i <= actual + VENTANA; i++) {
+    if (i > 1 && i < total) paginas.add(i);
+  }
+
+  const ordenadas = Array.from(paginas).sort((a, b) => a - b);
+  const resultado = [];
+
+  ordenadas.forEach((numero, indice) => {
+    if (indice > 0 && numero - ordenadas[indice - 1] > 1) {
+      resultado.push("...");
+    }
+    resultado.push(numero);
+  });
+
+  return resultado;
+}
+// SI NO APARECE LE MUESTRE UN MENSAJE DE PRODUCTOS NO ENCONTRADOS, SI APARECE LE MUESTRE EL NUMERO DE PRODUCTOS ENCONTRADOS Y EL TOTAL DE PRODUCTOS EN LA TIENDA
 
 /* ---------- 4. BUSCADOR EN TIEMPO REAL ---------- */
 const inputBuscador = document.getElementById("buscador");

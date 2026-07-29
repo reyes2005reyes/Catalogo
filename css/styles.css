@@ -503,6 +503,9 @@ section {
   gap: 10px;
   font-size: 1rem;
 }
+.empty-state[hidden] {
+  display: none;
+}
 
 .empty-state i {
   font-size: 1.8rem;
@@ -743,6 +746,16 @@ section {
   justify-content: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.pagination .pagination-dots {
+  min-width: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-ink-soft);
+  font-weight: 600;
 }
 
 .pagination button {
