@@ -598,7 +598,7 @@ const contadorResultados = document.getElementById("contadorResultados");
 const totalProductosEl = document.getElementById("totalProductos");
 const paginacionEl = document.getElementById("paginacion");
 
-const PRODUCTOS_POR_PAGINA = 8; // <-- cambia este número si quieres más o menos por página
+const PRODUCTOS_POR_PAGINA = 4; // <-- cambia este número si quieres más o menos por página
 let paginaActual = 1;
 let listaFiltradaActual = productos;
 
@@ -865,3 +865,96 @@ totalProductosEl.textContent = String(productos.length).padStart(2, "0");
 
 // Primer render al cargar la página
 renderizarProductos(productos);
+
+/* ---------- VIDEOS DE PRODUCTOS ---------- */
+const videos = [
+  { id: 1, titulo: "Punteras carbono MJ", producto: "Punteras carbono MJ",  poster: "videos/portada1.png", src: "videos/video1.mp4" },
+  { id: 2, titulo: "Silenciador válvula dobles", producto: "Silenciador válvula dobles", poster: "videos/portada2.png", src: "videos/video2.mp4" },
+  { id: 3, titulo: "Silenciador de alto flujo", producto: "Silenciador de alto flujo", poster: "videos/portada3.png", src: "videos/video3.mp4" },
+  { id: 4, titulo: "Silenciador válvula sencillo", producto: "Silenciador válvula sencillo", poster: "videos/portada4.png", src: "videos/video4.mp4" }
+];
+
+const videoGrid = document.getElementById("videoGrid");
+const modalVideoOverlay = document.getElementById("modalVideoOverlay");
+const modalVideo = document.getElementById("modalVideo");
+const modalVideoTitulo = document.getElementById("modalVideoTitulo");
+const modalVideoClose = document.getElementById("modalVideoClose");
+const modalVideoWhatsapp = document.getElementById("modalVideoWhatsapp"); 
+
+function crearTarjetaVideo(video) {
+  const card = document.createElement("article");
+  card.className = "video-card";
+
+  card.innerHTML = `
+    <div class="video-thumb">
+      <img src="${video.poster}" alt="${video.titulo}" loading="lazy">
+      <span class="video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+      <a class="video-contact" href="${construirEnlaceWhatsappVideo(video)}" target="_blank" rel="noopener" aria-label="Consultar ${video.producto} por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+    <div class="video-info">
+      <h3></h3>
+    </div>
+  `;
+
+  card.querySelector(".video-info h3").textContent = video.titulo;
+
+  // El clic en la miniatura abre el modal; el botón de WhatsApp no debe abrirlo
+  card.querySelector(".video-thumb").addEventListener("click", (evento) => {
+    if (evento.target.closest(".video-contact")) return;
+    abrirModalVideo(video);
+  });
+
+  return card;
+}
+
+/**
+ * Construye el enlace de WhatsApp para consultar el producto mostrado en un video.
+ * Incluye el link del video (si hay urlBase configurada) para que WhatsApp
+ * muestre una vista previa.
+ * @param {object} video
+ * @returns {string}
+ */
+function construirEnlaceWhatsappVideo(video) {
+  let mensaje = `Hola, vi el video de: ${video.producto} y quisiera consultar disponibilidad`;
+
+  if (CONFIG.urlBase) {
+    const urlVideo = new URL(video.src, CONFIG.urlBase).href;
+    mensaje += `\n${urlVideo}`;
+  }
+
+  return `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(mensaje)}`;
+}
+
+function abrirModalVideo(video) {
+  modalVideo.src = video.src;
+  modalVideoTitulo.textContent = video.titulo;
+  modalVideoWhatsapp.href = construirEnlaceWhatsappVideo(video);
+  modalVideoOverlay.classList.add("is-open");
+  modalVideoOverlay.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+  modalVideo.play();
+}
+
+function cerrarModalVideo() {
+  modalVideo.pause();
+  modalVideo.currentTime = 0;
+  modalVideo.removeAttribute("src");
+  modalVideo.load();
+  modalVideoOverlay.classList.remove("is-open");
+  modalVideoOverlay.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+}
+
+modalVideoClose.addEventListener("click", cerrarModalVideo);
+modalVideoOverlay.addEventListener("click", (evento) => {
+  if (evento.target === modalVideoOverlay) cerrarModalVideo();
+});
+document.addEventListener("keydown", (evento) => {
+  if (evento.key === "Escape" && modalVideoOverlay.classList.contains("is-open")) {
+    cerrarModalVideo();
+  }
+});
+
+videos.forEach((video) => videoGrid.appendChild(crearTarjetaVideo(video)));

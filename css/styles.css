@@ -793,3 +793,127 @@ section {
   color: var(--color-ink-soft);
   padding: 0 4px;
 }
+/* ---------- VIDEOS ---------- */
+.videos {
+  padding-top: 10px;
+  padding-bottom: clamp(60px, 8vw, 100px);
+}
+
+.video-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.video-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+}
+
+.video-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.video-thumb {
+  position: relative;
+  aspect-ratio: 16 / 9; /* cambia a 9 / 16 si tus videos son verticales (grabados con el celular en modo vertical) */
+  overflow: hidden;
+  background: var(--color-dark);
+}
+
+.video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease);
+}
+
+.video-card:hover .video-thumb img {
+  transform: scale(1.06);
+}
+
+.video-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.video-play i {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-accent);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s var(--ease);
+}
+
+.video-card:hover .video-play i {
+  transform: scale(1.1);
+}
+
+.video-info {
+  padding: 16px 18px;
+}
+
+.video-info h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+/* Modal de video (reutiliza .modal-overlay, ajustes propios del video) */
+.modal-box-video {
+  max-width: 720px;
+  display: block;
+}
+
+.modal-box-video video {
+  width: 100%;
+  max-height: 80vh;
+  display: block;
+  background: #000;
+}
+
+.modal-video-info {
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.modal-video-info h3 {
+  font-size: 1.1rem;
+}
+.video-contact {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  transition: transform 0.25s var(--ease), background 0.25s var(--ease);
+}
+
+.video-contact:hover {
+  background: #1DA851;
+  transform: scale(1.08);
+}

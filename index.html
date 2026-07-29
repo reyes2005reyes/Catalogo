@@ -28,6 +28,7 @@
 
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="#coleccion">Colección</a>
+        <a href="#videos">Videos</a>
         <a href="#contacto">Contacto</a>
       </nav>
 
@@ -71,6 +72,15 @@
       </div>
     </div>
   </section>
+  <section class="videos" id="videos">
+      <div class="section-heading">
+        <h2>Productos en video</h2>
+      </div>
+
+      <div class="video-grid" id="videoGrid">
+        <!-- Las tarjetas de video se generan dinámicamente con JavaScript -->
+      </div>
+    </section>
 
   <!-- ===================== COLECCIÓN / GRID ===================== -->
   <main>
@@ -113,6 +123,21 @@
           </a>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="modal-overlay" id="modalVideoOverlay" aria-hidden="true">
+    <div class="modal-box modal-box-video" role="dialog" aria-modal="true" aria-labelledby="modalVideoTitulo">
+      <button class="modal-close" id="modalVideoClose" aria-label="Cerrar video">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+        <video id="modalVideo" controls playsinline></video>
+        <div class="modal-video-info">
+          <h3 id="modalVideoTitulo"></h3>
+          <a class="btn btn-primary" id="modalVideoWhatsapp" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i>
+            Consultar este producto
+          </a>
+        </div>
     </div>
   </div>
 
