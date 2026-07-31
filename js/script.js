@@ -14,6 +14,48 @@
    Para agregar un producto nuevo, copia un objeto y cambia sus valores.
    El campo "imagen" debe apuntar a un archivo dentro de la carpeta /img.
 --------------------------------------------------------------------------- */
+/* ---------- ANIMACIÓN AL HACER SCROLL ---------- */
+
+// Se dispara cuando un elemento entra o sale de la pantalla.
+// Al entrar agrega "is-visible" (aparece), al salir la quita (desaparece),
+// así la animación se repite cada vez que el usuario sube o baja.
+const observadorScroll = new IntersectionObserver(
+  (entradas) => {
+    entradas.forEach((entrada) => {
+      if (entrada.isIntersecting) {
+        entrada.target.classList.add("is-visible");
+        observadorScroll.unobserve(entrada.target);
+      }
+    });
+  },
+  {
+    threshold: 0.15,      // se activa cuando ~15% del elemento es visible
+    rootMargin: "0px 0px -40px 0px"
+  }
+);
+
+/**
+ * Marca un elemento para que se anime con el scroll y empieza a observarlo.
+ * Si ya está visible en la pantalla, se muestra inmediatamente.
+ * @param {HTMLElement} elemento
+ */
+function activarRevealEnScroll(elemento) {
+  elemento.classList.add("reveal-on-scroll");
+
+  const rect = elemento.getBoundingClientRect();
+  const yaVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+  if (yaVisible) {
+    elemento.classList.add("is-visible");
+    return;
+  }
+
+  observadorScroll.observe(elemento);
+}
+
+/* ================================================ */
+
+  // ... tus 70 productos siguen aquí igual
 const productos = [
   {
     id: 1,
@@ -591,6 +633,13 @@ const CONFIG = {
   urlBase: "https://reyes2005reyes.github.io/Catalogo/"
 };
 
+/* ---------- ANIMACIÓN AL HACER SCROLL ---------- */
+
+// Se dispara cuando un elemento entra o sale de la pantalla.
+// Al entrar agrega "is-visible" (aparece), al salir la quita (desaparece),
+// así la animación se repite cada vez que el usuario sube o baja.
+
+
 /* ---------- 3. RENDER DEL GRID DE PRODUCTOS ---------- */
 const grid = document.getElementById("productGrid");
 const estadoVacio = document.getElementById("estadoVacio");
@@ -670,11 +719,11 @@ function crearTarjeta(producto, indice) {
 
   return card;
 }
+
 /**
  * Dibuja en el grid una lista de productos dada.
  * @param {object[]} lista
  */
-document.querySelectorAll(".section-heading").forEach(activarRevealEnScroll);
 function renderizarProductos(lista) {
   listaFiltradaActual = lista;
 
@@ -697,17 +746,15 @@ function renderizarProductos(lista) {
     });
   }
 
-  contadorResultados.textContent = lista.length !== productos.length
-    ? `${lista.length} resultado${lista.length === 1 ? "" : "s"}`
-    : "";
+  if (lista.length === 0) {
+    contadorResultados.textContent = "";
+  } else {
+    contadorResultados.textContent = `${lista.length} de ${productos.length} productos`;
+  }
 
   renderizarPaginacion(totalPaginas);
 }
 
-/**
- * Dibuja los botones de "Anterior", números de página y "Siguiente".
- * @param {number} totalPaginas
- */
 /**
  * Dibuja los botones de "Anterior", números de página y "Siguiente".
  * Si hay muchas páginas, las comprime con puntos suspensivos
@@ -798,7 +845,6 @@ function calcularRangoPaginas(actual, total) {
 
   return resultado;
 }
-// SI NO APARECE LE MUESTRE UN MENSAJE DE PRODUCTOS NO ENCONTRADOS, SI APARECE LE MUESTRE EL NUMERO DE PRODUCTOS ENCONTRADOS Y EL TOTAL DE PRODUCTOS EN LA TIENDA
 
 /* ---------- 4. BUSCADOR EN TIEMPO REAL ---------- */
 const inputBuscador = document.getElementById("buscador");
@@ -857,17 +903,6 @@ document.addEventListener("keydown", (evento) => {
     cerrarModal();
   }
 });
-
-/* ---------- 6. UTILIDADES ---------- */
-
-// Año actual en el footer
-document.getElementById("anioActual").textContent = new Date().getFullYear();
-
-// Contador de productos en el badge del hero
-totalProductosEl.textContent = String(productos.length).padStart(2, "0");
-
-// Primer render al cargar la página
-renderizarProductos(productos);
 
 /* ---------- VIDEOS DE PRODUCTOS ---------- */
 const videos = [
@@ -960,35 +995,19 @@ document.addEventListener("keydown", (evento) => {
   }
 });
 
+/* ---------- 6. UTILIDADES ---------- */
+
+// Año actual en el footer
+document.getElementById("anioActual").textContent = new Date().getFullYear();
+
+// Contador de productos en el badge del hero
+totalProductosEl.textContent = String(productos.length).padStart(2, "0");
+
+// Primer render al cargar la página
+renderizarProductos(productos);
+
 videos.forEach((video) => {
   const tarjeta = crearTarjetaVideo(video);
   videoGrid.appendChild(tarjeta);
   activarRevealEnScroll(tarjeta);
 });
-
-
-/* ---------- ANIMACIÓN AL HACER SCROLL ---------- */
-
-// Se dispara cuando un elemento entra o sale de la pantalla.
-// Al entrar agrega "is-visible" (aparece), al salir la quita (desaparece),
-// así la animación se repite cada vez que el usuario sube o baja.
-const observadorScroll = new IntersectionObserver(
-  (entradas) => {
-    entradas.forEach((entrada) => {
-      entrada.target.classList.toggle("is-visible", entrada.isIntersecting);
-    });
-  },
-  {
-    threshold: 0.15,      // se activa cuando ~15% del elemento es visible
-    rootMargin: "0px 0px -40px 0px"
-  }
-);
-
-/**
- * Marca un elemento para que se anime con el scroll y empieza a observarlo.
- * @param {HTMLElement} elemento
- */
-function activarRevealEnScroll(elemento) {
-  elemento.classList.add("reveal-on-scroll");
-  observadorScroll.observe(elemento);
-}
