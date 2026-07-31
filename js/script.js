@@ -62,7 +62,7 @@ const productos = [
     nombre: "Puntera Ovalada con Malla Negra",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look elegante y agresivo con esta puntera ovalada en acabado negro con malla interna.\n Su diseño sobrio combina perfecto con cualquier estilo, manteniendo una apariencia deportiva sin alterar el sonido.🚗✨\n✅ Forma: Ovalada ⚫\n✅ Acabado: Negro ahumado 🖤\n✅ Diseño: Con malla interna\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal 💥\nEstilo elegante y deportivo en tono oscuro\n📲 Escríbenos para más información o instalación",
-    precio: 38000,
+    precio: 90000,
     imagen: "img/1.png"
   },
   {
@@ -70,7 +70,7 @@ const productos = [
     nombre: "Cola de Pato con Malla Negra",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo más agresivo y elegante con esta puntera tipo cola de pato en acabado negro.\n Su diseño con malla interna aporta un look deportivo tipo OEM+ o racing. 🚗🔥 \n ✅ Diseño: Cola de pato 🦆\n✅ Acabado: Negro ahumado ⚫\n✅ Detalle: Malla interna deportiva 🔳\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia al calor\n✅ Instalación universal\n💥 Estilo deportivo con presencia fuerte y elegante\n📲 Escríbenos para más información o instalación",
-    precio: 185000,
+    precio: 105000,
     imagen: "img/2.png"
   },
   {
@@ -78,7 +78,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers Sesgo Tornasol",
     categoria: "Punteras",
     descripcion: "Estilo racing con efecto titanio quemado que roba miradas.\n✅ Diseño sesgado (salida inclinada)\n✅ Punta tornasol 🌈 (azul/dorado)\n✅ Acero inoxidable de alta resistencia\n✅ Sonido agresivo pero refinado 🔊\n✅ Alta durabilidad ante temperaturas extremas\n💥 Perfecto para builds deportivos premium\n📲 Contáctanos y arma tu sistema de escape a tu medida",
-    precio: 42000,
+    precio: 0,
     imagen: "img/3.png"
   },
   {
@@ -86,7 +86,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Carbono + Dorado",
     categoria: "Punteras",
     descripcion: "Acabado premium con fibra de carbono y punta dorada que resalta al máximo.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Carbono + dorado 🟡\n✅ Material: Alta calidad\n✅ Resistente al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n🔥 Look exclusivo y llamativo\n📲 Contáctanos para cotizar",
-    precio: 29000,
+    precio: 0,
     imagen: "img/4.png"
   },
   {
@@ -848,6 +848,7 @@ function calcularRangoPaginas(actual, total) {
 
 /* ---------- 4. BUSCADOR EN TIEMPO REAL ---------- */
 const inputBuscador = document.getElementById("buscador");
+const seccionVideos = document.getElementById("videos");
 
 inputBuscador.addEventListener("input", (evento) => {
   const termino = evento.target.value.trim().toLowerCase();
@@ -856,8 +857,10 @@ inputBuscador.addEventListener("input", (evento) => {
     producto.nombre.toLowerCase().includes(termino) ||
     producto.categoria.toLowerCase().includes(termino)
   );
+
   paginaActual = 1;
   renderizarProductos(filtrados);
+  seccionVideos.hidden = termino !== "" && filtrados.length >= 0;
 });
 
 /* ---------- 5. MODAL DE PRODUCTO ---------- */
