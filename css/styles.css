@@ -360,9 +360,6 @@ section {
   display: flex;
   flex-direction: column;
   transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
-  opacity: 0;
-  transform: translateY(18px);
-  animation: apareceTarjeta 0.6s var(--ease) forwards;
 }
 
 .product-card:hover {
@@ -677,12 +674,6 @@ section {
 }
 
 /* ---------- 10. ANIMACIONES ---------- */
-@keyframes apareceTarjeta {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 [data-animate] {
   animation: fadeInUp 0.8s var(--ease) both;
@@ -916,4 +907,29 @@ section {
 .video-contact:hover {
   background: #1DA851;
   transform: scale(1.08);
+}
+
+
+
+
+
+/* ---------- ANIMACIÓN AL HACER SCROLL (entrada y salida) ---------- */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Las tarjetas de video entran con un ligero zoom además del desvanecido */
+.video-card.reveal-on-scroll {
+  transform: translateY(28px) scale(0.96);
+}
+
+.video-card.reveal-on-scroll.is-visible {
+  transform: translateY(0) scale(1);
 }

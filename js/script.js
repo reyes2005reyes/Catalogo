@@ -674,6 +674,7 @@ function crearTarjeta(producto, indice) {
  * Dibuja en el grid una lista de productos dada.
  * @param {object[]} lista
  */
+document.querySelectorAll(".section-heading").forEach(activarRevealEnScroll);
 function renderizarProductos(lista) {
   listaFiltradaActual = lista;
 
@@ -690,7 +691,9 @@ function renderizarProductos(lista) {
   } else {
     estadoVacio.hidden = true;
     listaPagina.forEach((producto, indice) => {
-      grid.appendChild(crearTarjeta(producto, indice));
+      const tarjeta = crearTarjeta(producto, indice);
+      grid.appendChild(tarjeta);
+      activarRevealEnScroll(tarjeta);
     });
   }
 
@@ -957,4 +960,35 @@ document.addEventListener("keydown", (evento) => {
   }
 });
 
-videos.forEach((video) => videoGrid.appendChild(crearTarjetaVideo(video)));
+videos.forEach((video) => {
+  const tarjeta = crearTarjetaVideo(video);
+  videoGrid.appendChild(tarjeta);
+  activarRevealEnScroll(tarjeta);
+});
+
+
+/* ---------- ANIMACIÓN AL HACER SCROLL ---------- */
+
+// Se dispara cuando un elemento entra o sale de la pantalla.
+// Al entrar agrega "is-visible" (aparece), al salir la quita (desaparece),
+// así la animación se repite cada vez que el usuario sube o baja.
+const observadorScroll = new IntersectionObserver(
+  (entradas) => {
+    entradas.forEach((entrada) => {
+      entrada.target.classList.toggle("is-visible", entrada.isIntersecting);
+    });
+  },
+  {
+    threshold: 0.15,      // se activa cuando ~15% del elemento es visible
+    rootMargin: "0px 0px -40px 0px"
+  }
+);
+
+/**
+ * Marca un elemento para que se anime con el scroll y empieza a observarlo.
+ * @param {HTMLElement} elemento
+ */
+function activarRevealEnScroll(elemento) {
+  elemento.classList.add("reveal-on-scroll");
+  observadorScroll.observe(elemento);
+}
