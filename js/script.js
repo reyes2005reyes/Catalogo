@@ -78,7 +78,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers Sesgo Tornasol",
     categoria: "Punteras",
     descripcion: "Estilo racing con efecto titanio quemado que roba miradas.\n✅ Diseño sesgado (salida inclinada)\n✅ Punta tornasol 🌈 (azul/dorado)\n✅ Acero inoxidable de alta resistencia\n✅ Sonido agresivo pero refinado 🔊\n✅ Alta durabilidad ante temperaturas extremas\n💥 Perfecto para builds deportivos premium\n📲 Contáctanos y arma tu sistema de escape a tu medida",
-    precio: 0,
+    precio: 180000,
     imagen: "img/3.png"
   },
   {
@@ -86,7 +86,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Carbono + Dorado",
     categoria: "Punteras",
     descripcion: "Acabado premium con fibra de carbono y punta dorada que resalta al máximo.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Carbono + dorado 🟡\n✅ Material: Alta calidad\n✅ Resistente al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n🔥 Look exclusivo y llamativo\n📲 Contáctanos para cotizar",
-    precio: 0,
+    precio: 120000,
     imagen: "img/4.png"
   },
   {
@@ -94,7 +94,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers 3.25” Plateado Tipo HKS",
     categoria: "Punteras",
     descripcion: "Diseño clásico con acabado pulido tipo espejo.\n✅ Diámetro: 3.25”\n✅ Acabado plateado pulido ✨\n✅ Acero inoxidable\n✅ Sonido limpio y elegante 🔊\n✅ Máximo flujo de escape\n💥 Ideal para setups OEM+ o deportivos\n📲 Contáctanos para disponibilidad",
-    precio: 15000,
+    precio: 180000,
     imagen: "img/5.png"
   },
   {
@@ -102,7 +102,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers 3.25” Morado Tipo HKS",
     categoria: "Punteras",
     descripcion: "Color vibrante para un look totalmente diferente.\n✅ Diámetro: 3.25”\n✅ Acabado morado brillante 💜\n✅ Acero inoxidable\n✅ Sonido deportivo con presencia\n✅ Excelente control de ruido\n💥 Perfecto para proyectos personalizados\n📲 Escríbenos para cotizar",
-    precio: 210000,
+    precio: 190000,
     imagen: "img/6.png"
   },
   {
@@ -110,7 +110,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers 3.25” Negro Tipo HKS",
     categoria: "Punteras",
     descripcion: "Estilo elegante y agresivo con acabado completamente negro.\n✅ Diámetro: 3.25”\n✅ Acabado negro satinado 🖤\n✅ Acero inoxidable de alta calidad\n✅ Sonido deportivo limpio y profundo 🔊\n✅ Reduce resonancia sin afectar el rendimiento\n💥 Perfecto para un look stealth y sonido balanceado\n📲 Contáctanos para precio",
-    precio: 15000,
+    precio: 200000,
     imagen: "img/7.png"
   },
   {
@@ -118,7 +118,7 @@ const productos = [
     nombre: "Puntera Akrapovic Brillante (Carbono)",
     categoria: "Punteras",
     descripcion: "Acabado brillante en fibra de carbono que resalta el diseño y da un look más premium.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Acabado: Carbono brillante ✨\n✅ Material: Acero inoxidable\n✅ Resistente al calor\n✅ Instalación sencilla con abrazadera\n✅ Tipo: Decorativa\n💎 Elegancia y deportividad en una sola pieza\n📲 Contáctanos para precio y disponibilidad",
-    precio: 15000,
+    precio: 110000,
     imagen: "img/8.png"
   },
   {
@@ -126,7 +126,7 @@ const productos = [
     nombre: "Puntera MJ Morada 4.0” (Fibra de Carbono)",
     categoria: "Punteras",
     descripcion: "Puntera deportiva estilo MJ con acabado en fibra de carbono y detalles tornasol morado/azul que le dan un look único y agresivo.\n✅ Medida: 4.0 pulgadas 🔥\n✅ Diseño: Tipo MJ deportivo\n✅ Acabado: Fibra de carbono + tornasol morado/azul 🟣🔵\n✅ Material: Acero inoxidable de alta calidad\n✅ Alta resistencia al calor\n✅ Sistema con abrazadera (fácil instalación)\n✅ Tipo: Decorativa\n💥 Ideal para quienes quieren destacar con un estilo racing premium\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/9.png"
   },
   {
@@ -134,7 +134,7 @@ const productos = [
     nombre: "Puntera tipo BMW – Dorada",
     categoria: "Punteras",
     descripcion: "Diseño exclusivo con interior dorado que resalta y le da un toque premium a tu vehículo.\n✅ Diseño: Tipo BMW / M 🔥\n✅ Acabado: Fibra de carbono + dorado 🟡\n✅ Material: Alta calidad resistente al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n✨ Ideal para destacar con estilo único\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/10.png"
   },
   {
@@ -142,7 +142,7 @@ const productos = [
     nombre: "Puntera Akrapovic Doble Salida 4.0” Carbono Camuflado",
     categoria: "Punteras",
     descripcion: "Diseño exclusivo tipo carbono forjado con acabado tipo “camuflaje”.\n✅ Diseño: Doble salida tipo Akrapovic 🔥\n✅ Medida: 4.0” cada salida\n✅ Acabado: Carbono forjado ⚫\n✅ Estilo único y moderno\n✅ Alta resistencia al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n💥 Look racing premium diferente a lo convencional\n📲 Contáctanos para cotizar",
-    precio: 15000,
+    precio: 260000,
     imagen: "img/11.png"
   },
   {
@@ -150,7 +150,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Negra Mate Perforada",
     categoria: "Punteras",
     descripcion: "Diseño agresivo con acabado negro mate y perforaciones internas para look racing.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Negro mate ⚫\n✅ Detalle: Interior perforado 🕳️\n✅ Material resistente al calor\n✅ Instalación sencilla\n✅ Tipo: Decorativa\n💯 Ideal para un estilo más radical\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 110000,
     imagen: "img/12.png"
   },
   {
@@ -158,7 +158,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Carbono Brillante",
     categoria: "Punteras",
     descripcion: "Acabado brillante en fibra de carbono para un look más elegante y premium.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Carbono brillante ✨\n✅ Material: Acero inoxidable\n✅ Alta resistencia\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n💎 Perfecta para destacar con elegancia\n📲 Contáctanos para precio y entrega",
-    precio: 15000,
+    precio: 110000,
     imagen: "img/13.png"
   },
   {
@@ -166,7 +166,7 @@ const productos = [
     nombre: "Puntera Akrapovic Camuflada Dorada",
     categoria: "Punteras",
     descripcion: "Versión premium con acabado camuflado y detalles dorados que resaltan a simple vista.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Acabado: Carbono camuflado + dorado 🟡\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor\n✅ Fácil instalación\n✅ Tipo: Decorativa\n✨ Perfecta para un estilo exclusivo y llamativo\n📲 Contáctanos para cotizar o agendar instalación",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/14.png"
   },
   {
@@ -174,7 +174,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers 3.25” Tornasol Tipo HKS",
     categoria: "Punteras",
     descripcion: "Acabado tipo titanio quemado para un estilo racing único.\n✅ Diámetro: 3.25”\n✅ Punta tornasol (azul/dorado) 🌈\n✅ Acero inoxidable\n✅ Sonido agresivo pero controlado 🔊\n✅ Alta resistencia al calor\n💥 Ideal para destacar en cualquier build\n📲 Disponible bajo pedido",
-    precio: 15000,
+    precio: 180000,
     imagen: "img/15.png"
   },
   {
@@ -182,7 +182,7 @@ const productos = [
     nombre: "Puntera tipo BMW – Azul",
     categoria: "Punteras",
     descripcion: "Estilo deportivo inspirado en la línea M, con aro azul que resalta y acabado carbono.\n✅ Diseño: Tipo BMW / M Performance 🔥\n✅ Acabado: Fibra de carbono + azul 🔵\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor\n✅ Fácil instalación\n✅ Tipo: Decorativa\n💯 Perfecta para un look racing moderno\n📲 Contáctanos para cotizar o agendar instalación",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/16.png"
   },
   {
@@ -190,7 +190,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Carbono + Morado (Titanium Style)",
     categoria: "Punteras",
     descripcion: "Versión deportiva con efecto tornasol morado tipo titanio.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Carbono + morado 🟣\n✅ Efecto quemado tipo titanio\n✅ Alta resistencia al calor\n✅ Instalación rápida\n✅ Tipo: Decorativa\n💜 Estilo racing premium\n📲 Contáctanos para disponibilidad",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/17.png"
   },
   {
@@ -198,7 +198,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers Sesgo Morado",
     categoria: "Punteras",
     descripcion: "Diseño inclinado con un acabado llamativo que destaca al instante.\n✅ Diseño sesgado (salida inclinada)\n✅ Punta en acabado morado 💜\n✅ Cuerpo en acero inoxidable\n✅ Sonido deportivo profundo y limpio 🔊\n✅ Mejora la estética y el flujo del escape\n💥 Ideal para quienes buscan un look agresivo y diferente\n📲 Contáctanos para cotizar el tuyo hoy mismo",
-    precio: 15000,
+    precio: 190000,
     imagen: "img/18.png"
   },
   {
@@ -206,7 +206,7 @@ const productos = [
     nombre: "Resonador MJ Mufflers Sesgo Plateado",
     categoria: "Punteras",
     descripcion: "Elegancia clásica con diseño deportivo.\n✅ Diseño sesgado (salida inclinada)\n✅ Acabado plateado pulido ✨\n✅ Fabricado en acero inoxidable\n✅ Sonido balanceado y eficiente 🔊\n✅ Excelente flujo de gases\n💥 Ideal para proyectos discretos pero con estilo\n📲 Contáctanos para más información y disponibilidad",
-    precio: 15000,
+    precio: 180000,
     imagen: "img/19.png"
   },
   {
@@ -214,7 +214,7 @@ const productos = [
     nombre: "Puntera Akrapovic Mate (Fibra de Carbono)",
     categoria: "Punteras",
     descripcion: "Puntera deportiva tipo Akrapovic con acabado mate en fibra de carbono, perfecta para un look elegante y agresivo.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Acabado: Fibra de carbono mate 🖤\n✅ Material: Acero inoxidable + carbono\n✅ Alta resistencia al calor\n✅ Sistema con abrazadera\n✅ Tipo: Decorativa\n💥 Ideal para un estilo limpio y deportivo\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 110000,
     imagen: "img/20.png"
   },
   {
@@ -222,7 +222,7 @@ const productos = [
     nombre: "Botella MJ Mufflers Corta",
     categoria: "Punteras",
     descripcion: "Resonador compacto ideal para mejorar el sonido sin ocupar mucho espacio.\n✅ Material: Acero inoxidable\n✅ Tamaño: Corto\n✅ Sonido más deportivo y definido 🔊\n✅ Reduce ruido metálico\n💥 Perfecta para setups donde hay poco espacio o quieres un sonido más agresivo\n📲 Contáctanos para precio",
-    precio: 15000,
+    precio: 130000,
     imagen: "img/21.png"
   },
   {
@@ -230,7 +230,7 @@ const productos = [
     nombre: "Puntera Akrapovic Camuflada (Carbono)",
     categoria: "Punteras",
     descripcion: "Diseño exclusivo tipo camuflaje en fibra de carbono, diferente y llamativo para destacar.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Acabado: Carbono camuflado ⚫\n✅ Material: Alta calidad resistente al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n💯 Look único y deportivo\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/22.png"
   },
   {
@@ -238,7 +238,7 @@ const productos = [
     nombre: "Botella MJ Mufflers Larga",
     categoria: "Punteras",
     descripcion: "Máxima reducción de ruido sin perder el tono deportivo.\n✅ Material: Acero inoxidable\n✅ Tamaño: Largo\n✅ Mayor control de sonido\n✅ Manejo óptimo de resonancia\n💥 Perfecta para quienes buscan sonido fino, profundo y sin molestia\n📲 Escríbenos para cotizar",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/23.png"
   },
   {
@@ -246,7 +246,7 @@ const productos = [
     nombre: "Puntera tipo BMW – Negra (fibra de carbono)",
     categoria: "Punteras",
     descripcion: "Puntera deportiva estilo BMW M con acabado en fibra de carbono y aro oscuro, ideal para un look premium y agresivo.\n✅ Diseño: Tipo BMW / M Performance 🔥\n✅ Acabado: Fibra de carbono + negro 🖤\n✅ Material: Acero inoxidable + recubrimiento carbono\n✅ Alta resistencia al calor 🔥\n✅ Ajuste con abrazadera\n✅ Tipo: Decorativa\n💥 Perfecta para un estilo deportivo elegante\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 120000,
     imagen: "img/24.png"
   },
   {
@@ -254,7 +254,7 @@ const productos = [
     nombre: "Puntera Akrapovic Doble Salida 4.0” Carbono Brillante",
     categoria: "Punteras",
     descripcion: "Versión con acabado brillante para un look más fino y llamativo.\n✅ Diseño: Doble salida tipo Akrapovic 🔥\n✅ Medida: 4.0” cada salida\n✅ Acabado: Carbono brillante ✨\n✅ Material premium\n✅ Resistente al calor\n✅ Instalación sencilla\n✅ Tipo: Decorativa\n💎 Perfecta para un estilo elegante y deportivo\n📲 Contáctanos para más información",
-    precio: 15000,
+    precio: 260000,
     imagen: "img/25.png"
   },
   {
@@ -262,7 +262,7 @@ const productos = [
     nombre: "Puntera Akrapovic 4.0” Fibra de Carbono (Gris/Clásica)",
     categoria: "Punteras",
     descripcion: "Puntera deportiva tipo Akrapovic en fibra de carbono con diseño elegante y moderno.\n✅ Diseño: Tipo Akrapovic 🔥\n✅ Medida: 4.0”\n✅ Acabado: Fibra de carbono gris 🖤\n✅ Material: Acero inoxidable + carbono\n✅ Alta resistencia al calor\n✅ Instalación con abrazadera\n✅ Tipo: Decorativa\n💥 Estilo OEM+ deportivo y limpio\n📲 Contáctanos para precio y disponibilidad",
-    precio: 15000,
+    precio: 110000,
     imagen: "img/26.png"
   },
   {
@@ -270,7 +270,7 @@ const productos = [
     nombre: "Doble salida sesgo – Negra",
     categoria: "Punteras",
     descripcion: "Puntera deportiva de doble salida con corte en sesgo y acabado negro, ideal para un estilo agresivo y elegante.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Negro brillante 🖤\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor y corrosión\n✅ Tipo: Decorativa (no modifica sonido)\n✅ Instalación sencilla\n💥 Perfecta para un look deportivo más agresivo\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 160000,
     imagen: "img/27.png"
   },
   {
@@ -278,7 +278,7 @@ const productos = [
     nombre: "Doble salida redonda – Acero inoxidable",
     categoria: "Punteras",
     descripcion: "Puntera deportiva de doble salida redonda con acabado pulido tipo espejo, ideal para un look elegante y deportivo.\n✅ Diseño: Doble salida redonda 🔵🔵\n✅ Acabado: Acero inoxidable pulido ✨\n✅ Material: Alta calidad, resistente\n✅ Resistente al calor y corrosión 🔥\n✅ Tipo: Decorativa (no modifica sonido)\n✅ Instalación sencilla\n👌 Perfecta para un estilo limpio, clásico y deportivo\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/28.png"
   },
   {
@@ -286,7 +286,7 @@ const productos = [
     nombre: "Doble salida sesgo – Acero inoxidable",
     categoria: "Punteras",
     descripcion: "Versión clásica con acabado pulido tipo espejo, elegante y versátil para cualquier vehículo.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Cromado / acero pulido ✨\n✅ Material: Alta calidad\n✅ Resistente a la corrosión\n✅ Tipo: Decorativa\n✅ Instalación sencilla\n👌 Ideal para un look limpio y deportivo\n📲 Contáctanos para cotizar o agendar instalación",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/29.png"
   },
   {
@@ -294,7 +294,7 @@ const productos = [
     nombre: "Cola de Pato Pequeña Plateada",
     categoria: "Punteras",
     descripcion: "Puntera compacta con diseño tipo cola de pato, ideal para quienes buscan un estilo discreto pero deportivo.\nSu acabado pulido le da un look limpio y elegante. 🚗💎\n✅ Diseño: Cola de pato compacta 🦆\n✅ Tamaño: Pequeño (ideal para espacios reducidos)\n✅ Acabado: Plateado espejo ✨\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente al calor\n✅ Instalación universal\n💥 Estilo sobrio con toque deportivo\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/30.png"
   },
   {
@@ -302,7 +302,7 @@ const productos = [
     nombre: "Doble salida redonda – Tornasol",
     categoria: "Punteras",
     descripcion: "Diseño deportivo con acabado tornasol que cambia de color según la luz, ideal para un look llamativo y moderno.\n✅ Diseño: Doble salida redonda 🔵🔵\n✅ Acabado: Tornasol (azul, dorado, púrpura) 🌈\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor 🔥\n✅ Tipo: Decorativa\n✅ Instalación rápida\n💥 Ideal para destacar y darle un toque único a tu vehículo\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/31.png"
   },
   {
@@ -310,7 +310,7 @@ const productos = [
     nombre: "Puntera Cuadrada con Malla Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look único y agresivo con esta puntera cuadrada en acabado tornasol con malla interna.\nSu diseño moderno resalta al instante y aporta un estilo deportivo sin modificar el sonido original. 🚗✨\n✅ Forma: Cuadrada 🔷\n✅ Acabado: Tornasol 🌈\n✅ Diseño: Con malla interna\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo deportivo moderno con acabado premium\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 85000,
     imagen: "img/32.png"
   },
   {
@@ -318,7 +318,7 @@ const productos = [
     nombre: "Puntera 4.0 Sesgo Plateada",
     categoria: "Punteras",
     descripcion: "Un diseño clásico en gran tamaño que aporta elegancia y presencia a tu vehículo.\nPerfecta para un look limpio pero deportivo. 🚗💨\n✅ Diámetro: 4.0\n✅ Acabado: Plateado ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo elegante con presencia deportiva\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 95000,
     imagen: "img/33.png"
   },
   {
@@ -326,7 +326,7 @@ const productos = [
     nombre: "Doble salida cola de pato – Púrpura",
     categoria: "Punteras",
     descripcion: "Diseño deportivo con acabado púrpura intenso, ideal para un estilo más exclusivo y agresivo.\n✅ Diseño: Doble salida tipo cola de pato 🦆\n✅ Acabado: Púrpura metálico\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor 🔥\n✅ Tipo: Decorativa\n✅ Instalación rápida\n💯 Ideal para quienes buscan un look diferente y llamativo\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 140000,
     imagen: "img/34.png"
   },
   {
@@ -334,7 +334,7 @@ const productos = [
     nombre: "Cola de Pato Grande Plateada",
     categoria: "Punteras",
     descripcion: "Puntera amplia con diseño tipo cola de pato, ideal para darle mayor presencia a la parte trasera del vehículo.\nSu acabado pulido espejo ofrece un estilo limpio, elegante y deportivo. 🚗💎\n✅ Diseño: Cola de pato grande 🦆\n✅ Tamaño: Amplio (mayor presencia visual)\n✅ Acabado: Plateado espejo ✨\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia al calor\n✅ Instalación universal\n💥 Look deportivo elegante y llamativo\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 85000,
     imagen: "img/35.png"
   },
   {
@@ -342,7 +342,7 @@ const productos = [
     nombre: "Puntera Ovalada Pequeña Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un toque moderno con esta puntera ovalada compacta en acabado tornasol.\nSu efecto multicolor resalta con la luz, logrando un look llamativo y diferente. 🚗✨\n✅ Forma: Ovalada pequeña 🔵\n✅ Acabado: Tornasol 🌈\n✅ Diseño: Compacto y deportivo\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo moderno con efecto multicolor\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 45000,
     imagen: "img/36.png"
   },
   {
@@ -350,7 +350,7 @@ const productos = [
     nombre: "Cola de Pato Pequeña Tornasol",
     categoria: "Punteras",
     descripcion: "Versión compacta con acabado tornasol que cambia de color según la luz, perfecta para destacar sin necesidad de una punta grande. 🚗🌈\n✅ Diseño: Cola de pato compacta 🦆\n✅ Tamaño: Pequeño\n✅ Acabado: Tornasol multicolor 🌈\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia al calor\n✅ Instalación universal\n💥 Look racing en tamaño compacto\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/37.png"
   },
   {
@@ -358,7 +358,7 @@ const productos = [
     nombre: "Puntera 4.0 Sesgo Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look imponente y moderno con esta puntera de gran diámetro en acabado tornasol. Su efecto multicolor cambia con la luz, logrando un estilo único y deportivo. 🚗✨\n✅ Diámetro: 4.0\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, llamativo y diferente\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 95000,
     imagen: "img/38.png"
   },
   {
@@ -366,7 +366,7 @@ const productos = [
     nombre: "Doble salida sesgo – Tornasol",
     categoria: "Punteras",
     descripcion: "Diseño moderno con acabado tornasol que cambia de color según la luz, ideal para destacar.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Tornasol (azul, dorado, púrpura) 🌈\n✅ Material: Acero inoxidable\n✅ Resistente al calor 🔥\n✅ Tipo: Decorativa\n✅ Instalación rápida\n💯 Perfecta para un estilo único y llamativo\n📲 Contáctanos para más información o compra",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/39.png"
   },
   {
@@ -374,7 +374,7 @@ const productos = [
     nombre: "Puntera Ovalada con Malla Plateada",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un acabado limpio y elegante con esta puntera ovalada en acero inoxidable pulido con malla interna. Ideal para un look clásico y deportivo. 🚗✨\n✅ Forma: Ovalada ⚪\n✅ Acabado: Plateado pulido ✨\n✅ Diseño: Con malla interna\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo clásico con acabado premium\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 80000,
     imagen: "img/40.png"
   },
   {
@@ -382,7 +382,7 @@ const productos = [
     nombre: "Puntera Ovalada con Malla Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un toque llamativo con esta puntera ovalada en acabado tornasol con malla interna. Su efecto multicolor resalta con la luz, logrando un look moderno y único. 🚗✨\n✅ Forma: Ovalada 🔵\n✅ Acabado: Tornasol 🌈\n✅ Diseño: Con malla interna\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo moderno con efecto multicolor impactante\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 80000,
     imagen: "img/41.png"
   },
   {
@@ -390,7 +390,7 @@ const productos = [
     nombre: "Puntera 3.5 Sesgo Plateada",
     categoria: "Punteras",
     descripcion: "Diseño clásico y limpio que combina con cualquier vehículo, brindando un toque deportivo sin exagerar. 🚗💨\n✅ Diámetro: 3.5\n✅ Acabado: Plateado ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo elegante y versátil\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/42.png"
   },
   {
@@ -398,7 +398,7 @@ const productos = [
     nombre: "Puntera Ovalada con Malla Morado",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo único con esta puntera ovalada en acabado tornasol morado con malla interna. Su tonalidad intensa le da un look exclusivo y deportivo. 🚗✨\n✅ Forma: Ovalada 🟣\n✅ Acabado: morado 💜\n✅ Diseño: Con malla interna\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo deportivo con personalidad única\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 85000,
     imagen: "img/43.png"
   },
   {
@@ -406,7 +406,7 @@ const productos = [
     nombre: "Cola de Pato Grande Púrpura Tornasol",
     categoria: "Punteras",
     descripcion: "Versión premium con acabado púrpura tornasol que ofrece un efecto más intenso y exclusivo. Ideal para builds personalizados o tuning más agresivo. 🚗💜\n✅ Diseño: Cola de pato grande 🦆\n✅ Tamaño: Amplio\n✅ Acabado: Púrpura tornasol 💜🌈\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia al calor\n✅ Instalación universal\n💥 Look tuning premium, agresivo y único\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 90000,
     imagen: "img/44.png"
   },
   {
@@ -414,7 +414,7 @@ const productos = [
     nombre: "Doble salida sesgo – Dorada",
     categoria: "Punteras",
     descripcion: "Diseño llamativo con acabado dorado, perfecto para un estilo premium y elegante.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Dorado metálico 🟡\n✅ Material: Acero inoxidable\n✅ Resistente al calor y desgaste\n✅ Tipo: Decorativa\n✅ Instalación sencilla\n✨ Ideal para destacar con un look exclusivo\n📲 Contáctanos para precio y disponibilidad",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/45.png"
   },
   {
@@ -422,7 +422,7 @@ const productos = [
     nombre: "Puntera 3.5 Sesgo Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo único con este acabado tornasol que cambia de color según la luz. Ideal para quienes buscan destacar con un look moderno y deportivo. 🚗✨\n✅ Diámetro: 3.5\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Look llamativo con efecto multicolor\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/46.png"
   },
   {
@@ -430,7 +430,7 @@ const productos = [
     nombre: "Cola de Pato con Malla Tornasol",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look agresivo y moderno con esta puntera tipo cola de pato con acabado tornasol. Su diseño ancho con malla interna resalta el estilo deportivo y mejora la estética trasera. 🚗✨\n✅ Diseño: Cola de pato 🦆\n✅ Acabado: Tornasol 🌈\n✅ Detalle: Malla interna deportiva 🔳\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia al calor\n✅ Instalación universal\n💥 Estilo racing con efecto multicolor impactante\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 100000,
     imagen: "img/47.png"
   },
   {
@@ -438,7 +438,7 @@ const productos = [
     nombre: "Puntera 3.5 Sesgo Negra",
     categoria: "Punteras",
     descripcion: "Un look agresivo y moderno con acabado negro que le da presencia deportiva a tu vehículo. 🚗💣\n✅ Diámetro: 3.5\n✅ Acabado: Negro ⚫\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo deportivo oscuro y elegante\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 85000,
     imagen: "img/48.png"
   },
   {
@@ -446,7 +446,7 @@ const productos = [
     nombre: "Puntera de Bus Tornasol",
     categoria: "Punteras",
     descripcion: "Puntera de gran tamaño diseñada especialmente para buses o vehículos de escape amplio. Su acabado tornasol brinda un estilo llamativo y moderno, ideal para destacar en carretera. 🚍🌈\n✅ Diseño: Tipo bus (boca amplia) 🚌\n✅ Tamaño: Grande (alto flujo visual y estético)\n✅ Acabado: Tornasol multicolor 🌈\n✅ Material: Acero inoxidable de alta resistencia\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Alta resistencia a temperaturas elevadas\n✅ Ideal para escapes grandes o adaptaciones\n💥 Estilo imponente y profesional para vehículos de mayor tamaño\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/49.png"
   },
   {
@@ -454,7 +454,7 @@ const productos = [
     nombre: "Puntera Ovalada Pequeña Plateada",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look limpio y elegante con esta puntera ovalada compacta en acabado plateado pulido. Su diseño discreto es perfecto para un estilo sobrio y deportivo. 🚗✨\n✅ Forma: Ovalada pequeña ⚪\n✅ Acabado: Plateado pulido ✨\n✅ Diseño: Compacto y elegante\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo discreto con acabado premium\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 45000,
     imagen: "img/50.png"
   },
   {
@@ -462,7 +462,7 @@ const productos = [
     nombre: "Doble salida cola de pato – Tornasol",
     categoria: "Punteras",
     descripcion: "Puntera deportiva de doble salida con acabado tornasol que cambia de color según la luz, ideal para un look llamativo y moderno. 🌈\n✅ Diseño: Doble salida tipo cola de pato 🦆\n✅ Acabado: Tornasol (efecto azul, dorado y púrpura)\n✅ Material: Acero inoxidable\n✅ Resistente al calor y corrosión 🔥\n✅ Tipo: Decorativa (no modifica sonido)\n✅ Instalación sencilla\n💥 Perfecta para destacar y darle un toque único a tu vehículo\n📲 Contáctanos para precio, disponibilidad e instalación",
-    precio: 15000,
+    precio: 140000,
     imagen: "img/51.png"
   },
   {
@@ -470,7 +470,7 @@ const productos = [
     nombre: "Cola de Pato Grande Tornasol",
     categoria: "Punteras",
     descripcion: "Diseño ancho con acabado tornasol que cambia de color según la luz. Perfecta para quienes buscan destacar con un estilo racing moderno. 🚗🌈\n✅ Diseño: Cola de pato grande 🦆\n✅ Tamaño: Amplio\n✅ Acabado: Tornasol multicolor 🌈\n✅ Material: Acero inoxidable\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo racing con efecto multicolor impactante\n📲 Escríbenos para más info o instalación",
-    precio: 15000,
+    precio: 85000,
     imagen: "img/52.png"
   },
   {
@@ -478,7 +478,7 @@ const productos = [
     nombre: "Puntera Ovalada Pequeña Morado",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo único con esta puntera ovalada pequeña en acabado tornasol morado. Su tonalidad intensa aporta personalidad y un look deportivo exclusivo. 🚗✨\n✅ Forma: Ovalada pequeña 🟣\n✅ Acabado: morado 💜\n✅ Diseño: Compacto y llamativo\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo deportivo con personalidad única\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 50000,
     imagen: "img/53.png"
   },
   {
@@ -486,7 +486,7 @@ const productos = [
     nombre: "Doble salida sesgo – Púrpura",
     categoria: "Punteras",
     descripcion: "Puntera deportiva con acabado púrpura metálico, perfecta para un estilo exclusivo.\n✅ Diseño: Doble salida sesgada 🔥\n✅ Acabado: Púrpura brillante 🔮\n✅ Material: Acero inoxidable\n✅ Alta resistencia al calor\n✅ Tipo: Decorativa\n✅ Instalación rápida\n💥 Ideal para quienes buscan algo diferente\n📲 Contáctanos para más información",
-    precio: 15000,
+    precio: 150000,
     imagen: "img/54.png"
   },
   {
@@ -494,7 +494,7 @@ const productos = [
     nombre: "Puntera Redonda 3.5\" Acero Inoxidable Cromado",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo elegante y robusto con esta puntera redonda de 3.5\" en acabado cromado. Su diseño clásico y brillante resalta la apariencia del escape sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un look más grande, elegante y llamativo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/55.png"
   },
   {
@@ -502,7 +502,7 @@ const productos = [
     nombre: "Puntera 2.0\" Acero Inoxidable Cromado",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look limpio y elegante con esta puntera en acero inoxidable cromado. Su acabado brillante tipo espejo resalta al instante sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo clásico, elegante y atemporal.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 30000,
     imagen: "img/56.png"
   },
   {
@@ -510,7 +510,7 @@ const productos = [
     nombre: "Puntera 2.75\" Sesgo Acero Pulido",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look limpio y elegante con esta puntera en acero pulido. Su acabado clásico resalta sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.75\"\n✅ Acabado: Acero Pulido ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo discreto pero elegante.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 45000,
     imagen: "img/57.png"
   },
   {
@@ -518,7 +518,7 @@ const productos = [
     nombre: "Puntera 4.0\" Negra Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look agresivo y sofisticado con esta puntera en acabado negro. Su diseño discreto y deportivo resalta sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Negro ⚫\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, elegante y deportivo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 95000,
     imagen: "img/58.png"
   },
   {
@@ -526,7 +526,7 @@ const productos = [
     nombre: "Puntera 3.5\" Sesgo Morada",
     categoria: "Punteras",
     descripcion: "Acabado vibrante en tono morado que le da un toque diferente y personalizado a tu vehículo. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Acabado: Morado 🟣\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para un estilo único y atrevido\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 80000,
     imagen: "img/59.png"
   },
   {
@@ -534,7 +534,7 @@ const productos = [
     nombre: "Puntera 2.0\" Tornasol Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un toque deportivo y llamativo con esta puntera en acabado tornasol. Su efecto multicolor resalta con la luz, logrando un look moderno sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo compacto, moderno y diferente.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 30000,
     imagen: "img/60.png"
   },
   {
@@ -542,7 +542,7 @@ const productos = [
     nombre: "Puntera Redonda 3.0\" Acero Inoxidable Cromado",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo elegante y limpio con esta puntera redonda de 3.0\" en acabado cromado. Su diseño clásico y brillante mejora la apariencia del escape sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Cromado brillante ✨\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para un look elegante, moderno y atemporal.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 55000,
     imagen: "img/61.png"
   },
   {
@@ -550,7 +550,7 @@ const productos = [
     nombre: "Puntera 3.0\" Sesgo Tornasol Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo deportivo y moderno con esta puntera en acabado tornasol. Su efecto multicolor resalta con la luz, logrando un look llamativo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo deportivo más robusto y llamativo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 55000,
     imagen: "img/62.png"
   },
   {
@@ -558,7 +558,7 @@ const productos = [
     nombre: "Puntera Redonda 3.5\" Tornasol Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo deportivo y llamativo con esta puntera redonda de 3.5\" en acabado tornasol. Su efecto multicolor cambia con la luz, logrando un look moderno sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.5\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo más grande, agresivo y llamativo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 70000,
     imagen: "img/63.png"
   },
   {
@@ -566,7 +566,7 @@ const productos = [
     nombre: "Puntera 4.0\" Tornasol Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo deportivo y moderno con esta puntera en acabado tornasol multicolor. Su efecto cambia con la luz, logrando un look único sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, moderno y llamativo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 95000,
     imagen: "img/64.png"
   },
   {
@@ -574,7 +574,7 @@ const productos = [
     nombre: "Puntera Redonda 3.0\" Tornasol Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo moderno y llamativo con esta puntera redonda de 3.0\" en acabado tornasol. Su efecto multicolor cambia con la luz, logrando un look deportivo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 3.0\"\n✅ Diseño: Redondo clásico 🔵\n✅ Acabado: Tornasol 🌈\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas y corrosión\n✅ Instalación universal\n💥 Ideal para quienes buscan destacar con un estilo diferente y deportivo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 55000,
     imagen: "img/65.png"
   },
   {
@@ -582,7 +582,7 @@ const productos = [
     nombre: "Puntera 2.75\" Sesgo Negra Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo agresivo y sofisticado con esta puntera en acabado negro. Su diseño moderno destaca sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.75\"\n✅ Acabado: Negro ⚫\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un look deportivo y elegante.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 50000,
     imagen: "img/66.png"
   },
   {
@@ -590,7 +590,7 @@ const productos = [
     nombre: "Puntera 4.0\" Tornasol Morado Acero Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un look agresivo y llamativo con esta puntera en acabado tornasol morado. Su color vibrante resalta con la luz, logrando un estilo deportivo sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Tornasol Morado 🟣\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo grande, deportivo y llamativo.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 100000,
     imagen: "img/67.png"
   },
   {
@@ -598,7 +598,7 @@ const productos = [
     nombre: "Puntera Redonda 2.0\" Morada",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo único y elegante con esta puntera en acabado morado. Su diseño moderno resalta al instante sin modificar el sonido original. 🚗✨\n✅ Diámetro: 2.0\"\n✅ Acabado: Morado 💜\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un estilo compacto, elegante y diferente.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 33000,
     imagen: "img/68.png"
   },
   {
@@ -606,7 +606,7 @@ const productos = [
     nombre: "Puntera 3.5\" Sesgo Dorada",
     categoria: "Punteras",
     descripcion: "Un acabado dorado elegante que aporta un estilo exclusivo y refinado a tu vehículo, ideal para destacar con clase. 🚗🔥\n✅ Diámetro: 3.5\"\n✅ Acabado: Dorado 🟡\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Diseño: Corte sesgado\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Estilo premium con acabado brillante\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 80000,
     imagen: "img/69.png"
   },
   {
@@ -614,7 +614,7 @@ const productos = [
     nombre: "Puntera 4.0\" Acero Pulido Inoxidable",
     categoria: "Punteras",
     descripcion: "Dale a tu vehículo un estilo elegante y limpio con esta puntera en acero pulido. Su acabado clásico brinda presencia sin modificar el sonido original. 🚗✨\n✅ Diámetro: 4.0\"\n✅ Acabado: Acero Pulido ⚪\n✅ Material: Acero inoxidable de alta calidad\n✅ Tipo: Puntera decorativa (NO modifica el sonido) 🚫🔊\n✅ Resistente a altas temperaturas\n✅ Instalación universal\n💥 Ideal para quienes buscan un look grande, elegante y atemporal.\n📲 Escríbenos para más información o instalación",
-    precio: 15000,
+    precio: 95000,
     imagen: "img/70.png"
   }
 ];
